@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(250, 216, 250);
+}
+.img1{
+    height: auto;
+    width: 45%;
+}
+.footer{
+    border-top: solid 1px grey;
+}
+
+h1 {
+    color: firebrick;
+    font-size: 48;
+    text-decoration: underline;
+    font-weight: thin;
+}
+h2 {
+    color: purple;
+
+}
+
+.title,.subtitle,.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    flex-direction: column;
+}
+
+.quotebtn{
+    display: flex;
+    border-radius: 9px;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    box-shadow:  5px 5px 5px grey;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+}
